@@ -30,7 +30,7 @@ Based on the input data and the test scenarios multiple test cases are created t
 		# Not equal to "!=" => Data1 is not equal to Data 2, string comparison
 		   (Data1 != Data2)
 		# Exists if "exists if" => Data1 exists only if Data2 belongs to some range
-		   (Data1 exists if Data2[[2]][[3]])
+		   (Data1 exists if !Data2[[2]][[3]])
 		# Not Exists if "!exists if" => Data1 does not exists if Data2 belongs to some range
 		   (Data1 !exists if Data2[[3]])
 	   
