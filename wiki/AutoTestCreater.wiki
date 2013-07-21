@@ -27,14 +27,14 @@ Based on the input data and the test scenarios multiple test cases are created t
 	# Define index as => [<int 1>][<int 2>] or [<int 1>..<int n>]
 	# Rules for conditions:--
 		# No rule => ()
-		# Not equal to "!=" => Data1 is not equal to Data 2, string comparision
+		# Not equal to "!=" => Data1 is not equal to Data 2, string comparison
 		   (Data1 != Data2)
 		# Exists if "exists if" => Data1 exists only if Data2 belongs to some range
 		   (Data1 exists if Data2[[2]][[3]])
 		# Not Exists if "!exists if" => Data1 does not exists if Data2 belongs to some range
 		   (Data1 !exists if Data2[[3]])
 	   
-* Sample SampleInput!.csv file
+* Sample !SampleInput.csv file
    * Data1,Data2,Data3,Data4
    * Value01,Value02,Value03,Value04
    * Value11,Value12,Value13,Value14
