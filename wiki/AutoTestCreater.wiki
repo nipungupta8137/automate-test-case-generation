@@ -34,7 +34,7 @@ Based on the input data and the test scenarios multiple test cases are created t
 		# Not Exists if "!exists if" => Data1 does not exists if Data2 belongs to some range
 		   (Data1 !exists if Data2[[3]])
 	   
-* Sample SampleInput.csv file
+* Sample SampleInput!.csv file
    * Data1,Data2,Data3,Data4
    * Value01,Value02,Value03,Value04
    * Value11,Value12,Value13,Value14
