@@ -13,8 +13,8 @@
 #                                                                                                  #
 # Description :                                                                                    #
 #   1. Automatic test case generation                                                              #
-#        1. Write the input.csv file that contain the test data.                                   #
-#        2. Write the TestScenario.csv file using grammer defined.                                 #
+#        1. Write the input file that contain the test data.                                       #
+#        2. Write the test scenario file using grammar defined.                                    #
 #        3. Write the rules/conditions.                                                            #
 #                                                                                                  #
 #   2. Characters supported:--                                                                     #
