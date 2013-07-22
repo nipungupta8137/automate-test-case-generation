@@ -2,7 +2,7 @@
 
 = Introduction =
 
-Automatic test case generation is a program that helps to write test cases for any the software to be tested.
+Automatic test case generation is a program that helps to write test cases for any computer software to has to be tested.
 Based on the input data and the test scenarios multiple test cases are created that provides wide range of test coverage.
 
 = Details =
