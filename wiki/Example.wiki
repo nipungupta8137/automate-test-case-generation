@@ -1,0 +1,22 @@
+= Example =
+
+There is a application which allows user to choose item(s) from a list.
+User can select the mode of payment also there is an option to choose different discount cards.
+
+
+= Details =
+
+To test the feature there lies many scenarios which should be tested before the software is released.
+It is difficult to cover all the scenarios and also tough to write all scenarios.
+
+*Some scenarios are as under:--
+  # One item with debit card and no discount card.
+  # Three items with credit card and SuperDisc card applied.
+  # Similar to second scenario with four, five, six... items
+
+The scenario list can be endless and it is not possible to write all these. This program will help create the tests using random data.
+
+
+SampleInput.csv contains the test data that will be chosen randomly based on scenarios defined in SampleTestScenario.csv
+
+This is a general example and does not need any rules. Complex problem can be controlled by different rules.
