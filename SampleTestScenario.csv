@@ -1,4 +1,4 @@
-TestID,Summary,Data1,Data2,Data3,Data4,Expected,Condition
-1,Test summary one,{1}:[0],{1},{1},{1},Expected result one,(Data1 exists if Data2[3])
-2,Test summary two,{1}:[0],{1}:[3..5],{1},{1},Expected result two,(Data1 != Data2)
-3,Test summary three,{1..3},{1},{2},{1},Expected result three,(Data1 != Data2) && (Data1 !exists if Data2[3])
+TestID,Summary,Item,PaymentType,Discount Cards,Expected Results,Rules
+1,One item with debit card and no discount card.,{1},{1}:[0],,One item will be chosen randomly and debit card option will be avilable.,()
+2,Multiple items with any payment mode and any card applied.,{3..7},{1},{1},3;4;5;6 or 7 item will be selected from the list and any one payment mode. Also program chooses any random discount card available in the SampleInput list,()
+
