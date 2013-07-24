@@ -58,3 +58,6 @@ Based on the input data and the test scenarios multiple test cases are created t
    * 3;,Test summary three;,Value11;,Value12;,Value11;,Value24;,Expected result one,
    * 3;,Test summary three;,Value01;Value11;,Value22;,Value13;,Value04;,Expected result one,
    * 3;,Test summary three;,Value21;Value21;Value01;,Value22;,Value11;,Value24;,Expected result one,
+
+
+Example : Example.wiki
